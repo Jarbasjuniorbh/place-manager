@@ -10,7 +10,7 @@ class GridBuilder extends Component {
 
         this.state = {
             grid: {
-                rows: 50,
+                rows: 52,
                 cols: 2
             }
         }

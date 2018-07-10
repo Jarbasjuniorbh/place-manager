@@ -7,12 +7,12 @@ class Cell extends Component {
 
     render() {
         return (
-            // <div className={CellStyle.Cell}>
-            //     {this.props.children}
-            // </div>
-            <Paper className={CellStyle.Paper}>
-                teste
-            </Paper>
+            <div className={CellStyle.Cell}>
+                {this.props.children}
+            </div>
+            // <Paper className={CellStyle.Paper}>
+            //     teste
+            // </Paper>
         )
     }
 }

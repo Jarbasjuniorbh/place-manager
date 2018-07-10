@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+
 //import PropTypes from 'prop-types';
 //import { Grid, Paper } from '@material-ui/core';
 
@@ -28,9 +29,11 @@ class GridSystem extends Component {
 
     render() {
         return (
-            <div className={GridSystemStyle.Cell}>
-                {this.getGridCells()}
-            </div>
+            <div class="row">
+                <div className={[GridSystemStyle.Cell, "col-lg-12"].join(' ')}>
+                    {this.getGridCells()}
+                </div>
+            </div >
         );
     }
 }

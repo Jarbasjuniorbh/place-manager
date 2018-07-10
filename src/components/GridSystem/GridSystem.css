@@ -1,7 +1,6 @@
-.Cell {
-    display: flex;     
+.Cell {   
     border: 1px solid black;
     padding: 5px;
-    margin: 5px;
-    flex-direction: row;
+    margin: 10px;
+    height: 500px;
 }
